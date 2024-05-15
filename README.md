@@ -54,3 +54,11 @@ php artisan serve --host=0.0.0.0 --port=8000
 ```
 
  ### Demostração de uso  
+
+![Demonstração de Uso da aplicação ](https://github.com/themarcosramos/Weather/blob/main/gif/user.gif)
+
+
+![Demonstração de Uso da aplicação ](https://github.com/themarcosramos/Weather/blob/main/gif/user2.gif)
+
+
+![Demonstração de Uso da aplicação responsivo ](https://github.com/themarcosramos/Weather/blob/main/gif/responsivo.gif)

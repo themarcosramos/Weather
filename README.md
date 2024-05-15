@@ -48,6 +48,9 @@ docker-compose exec app bash
 php artisan migrate
 ```
 8. Inicie o servidor laravel :
+
 ```bash
-p hp artisan serve --host=0.0.0.0 --port=8000
+php artisan serve --host=0.0.0.0 --port=8000
 ```
+
+ ### Demostração de uso  

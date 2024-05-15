@@ -52,6 +52,7 @@ php artisan migrate
 ```bash
 php artisan serve --host=0.0.0.0 --port=8000
 ```
+Quando você terminar de usar o servidor laravel, pressione `Ctrl + C` no terminal onde o servidor está em execução para encerrá-lo. E para sair do contêiner, basta digitar `exit` no terminal.
 
  ### Demostração de uso  
 

@@ -1,0 +1,28 @@
+.card-previsao {
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(4px) saturate(180%);
+    background-color: #d3e4eb !important;
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.bg-default {
+    background-color: #cce3ee;
+    background-color: #f0f4f7 !important;
+
+}
+
+.previsao-atual {
+    backdrop-filter: blur(3px) saturate(149%);
+    -webkit-backdrop-filter: blur(3px) saturate(149%);
+    background-color: rgba(255, 255, 255, 0.51);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    width: 100%;
+    background-color: #cce3ee;
+}
+
+.br-12 {
+
+    border-radius: 12px;
+}

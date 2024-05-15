@@ -1,0 +1,56 @@
+.logo-principal {
+
+
+    filter: drop-shadow(0 0 0.20rem hsl(242, 51%, 85%));
+}
+
+.bg-welcome {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #cce3ee;
+
+}
+
+.bg-card-welcome {
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(4px) saturate(180%);
+    background-color: #d3e4eb;
+    border-radius: 12px;
+    border: 1px solid rgba(235, 238, 241, 0.712);
+    padding: 9vw !important;
+    margin: -6vw;
+    box-shadow: 0 0 20px rgba(209, 208, 208, 0.5);
+}
+
+.welcome-text {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+}
+
+.btn-light-gray {
+    background-color: #f2f2f2;
+    color: #333;
+    border-color: #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.btn-light-gray:hover {
+    background-color: #a09d9d;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.flex-wrap2 {
+    flex-wrap: nowrap !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .flex-wrap2 {
+        flex-direction: column;
+    }
+}

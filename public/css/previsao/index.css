@@ -1,0 +1,119 @@
+.previsao-atual {
+
+    backdrop-filter: blur(3px) saturate(149%);
+    -webkit-backdrop-filter: blur(3px) saturate(149%);
+    background-color: #d3e4eb !important;
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+
+    width: 100%;
+}
+
+.previsao-atual>* {
+    flex: 1;
+    min-width: 0;
+}
+
+.bg-113 {
+    background-color: #f0f4f7 !important;
+}
+
+.bg-116 {
+    background-image: radial-gradient(at 57% 53%,
+            hsl(222, 12%, 57%) 0,
+            transparent 55%),
+
+}
+
+.bg-119,
+.bg-122,
+.bg-176 {
+    background-color: #d3e4eb;
+}
+
+
+.bg-143 {
+    background-color: #d3e4eb;
+}
+
+.bg-179,
+.bg-182,
+.bg-185 {
+    background-color: #d3e4eb;
+
+}
+
+.bg-200 {
+    background-color: #d3e4eb;
+
+}
+
+.bg-227,
+.bg-230,
+.bg-248,
+.bg-260 {
+    background-image: radial-gradient(at 57% 53%,
+            hsl(225, 10%, 77%) 0,
+            transparent 55%),
+
+}
+
+.bg-263,
+.bg-266,
+.bg-281,
+.bg-284 {
+    background-image: radial-gradient(at 57% 53%,
+            hsl(222, 12%, 57%) 0,
+            transparent 55%),
+
+}
+
+.bg-293,
+.bg-299,
+.bg-302,
+.bg-296,
+.bg-305,
+.bg-308 {
+    background-image: radial-gradient(at 57% 53%,
+            hsl(222, 30%, 65%) 0,
+            transparent 55%),
+        radial-gradient(at 100% 35%, hsl(212, 58%, 36%) 0, transparent 55%),
+        radial-gradient(at 0% 65%, hsl(248, 71%, 37%) 0, transparent 55%);
+}
+
+.bg-311 {
+    background-image: radial-gradient(at 95% 35%,
+            hsl(212, 58%, 36%) 0,
+            transparent 55%),
+        radial-gradient(at 57% 53%, hsl(222, 30%, 65%) 0, transparent 55%),
+        radial-gradient(at 95% 35%, hsl(212, 58%, 36%) 0, transparent 55%),
+        radial-gradient(at 22% 65%, hsl(248, 67%, 63%) 0, transparent 55%);
+}
+
+.bg-container-previsao {
+    background-color: rgb(163, 192, 226);
+}
+
+.modal-glass {
+    backdrop-filter: blur(7px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.77);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.glass-item {
+    backdrop-filter: blur(1px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.bg-card-principal {
+    backdrop-filter: blur(4px) saturate(180%);
+    -webkit-backdrop-filter: blur(4px) saturate(180%);
+    background-color: #d3e4eb;
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}

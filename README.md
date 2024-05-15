@@ -65,3 +65,4 @@ Quando você terminar de usar o servidor laravel, pressione `Ctrl + C` no termin
 >>
 
 ![Demonstração de Uso da aplicação responsivo ](https://github.com/themarcosramos/Weather/blob/main/gif/responsivo.gif)
+

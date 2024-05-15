@@ -1,5 +1,5 @@
 # Weather
-Aplicação web que permite aos usuários consultar a previsão do tempo de uma determinada cidade, utilizando a API do WeatherStack, através da stack PHP com Laravel para o backend, e para o frontend jQuery e Bootstrap, utilizando o banco de dados MySQL.
+Aplicação web que permite aos usuários consultar a previsão do tempo de uma determinada cidade, utilizando a `API do WeatherStack`, através da stack `PHP` com `Laravel` para o backend, e para o frontend `jQuery` e `Bootstrap`, utilizando o banco de dados `MySQL`.
 
 ## Requisitos necessários excução do  projeto 
 
@@ -17,12 +17,12 @@ Aplicação web que permite aos usuários consultar a previsão do tempo de uma 
   ``` 
      Weather/app/Http/Controllers/PrevisaoController.php
    ```
- e  na variável 
+ e na variável 
 
 ```php
    private $weatherstackApiKey = '';
 ```
-dentro na '' insira o seu token da [WeatherStack](https://weatherstack.com)
+dentro das '' insira o seu token da [WeatherStack](https://weatherstack.com)
 
    3. Faça um copia do arquivo  `env.example.` e renomeei para  `.env` e altere para suas credência caso  necessário.  
 
@@ -31,27 +31,30 @@ dentro na '' insira o seu token da [WeatherStack](https://weatherstack.com)
 ```bash
 docker-compose up --build
 ```
-5. Ainda  diretório raiz do projeto execute : 
+5. Ainda no diretório raiz do projeto execute : 
 
 ```bash
 docker-compose up -d
 ```
-6. Ainda seguinda execute : 
+
+6. Em seguinda execute : 
 
 ```bash
 docker-compose exec app bash
 ```
 
-7. Execute as migrations do laravel: 
+7. Agora execute as migrations do laravel: 
 
 ```bash
 php artisan migrate
 ```
+
 8. Inicie o servidor laravel :
 
 ```bash
 php artisan serve --host=0.0.0.0 --port=8000
 ```
+
 Quando você terminar de usar o servidor laravel, pressione `Ctrl + C` no terminal onde o servidor está em execução para encerrá-lo. E para sair do contêiner, basta digitar `exit` no terminal.
 
  ### Demostração de uso  
@@ -65,4 +68,3 @@ Quando você terminar de usar o servidor laravel, pressione `Ctrl + C` no termin
 >>
 
 ![Demonstração de Uso da aplicação responsivo ](https://github.com/themarcosramos/Weather/blob/main/gif/responsivo.gif)
-
